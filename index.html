@@ -8,7 +8,7 @@
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/league.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
@@ -25,8 +25,164 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<section>
+						<h3>How to Learn a Programming Language</h3>
+					</section>
+					<section data-background="#FFF" data-background-iframe="https://daniakash.com/about/" data-background-interactive data-background-transition="zoom">
+						<h1></h1>
+						<br>
+						<br>
+						<br>
+						<h5 style="position: absolute; right: 0; bottom: -100; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.4); padding: 20px;">daniakash.com</h5>
+					</section>
+					<section data-background="./assets/understanding.jpg" data-background-transition="zoom">
+						<h3 style="position: absolute; left: 0;  box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.4); top: 25; padding: 20px;">How to actually learn one</h3>
+					</section>
+					<section>
+						<p>Who should code?</p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>How to choose a language</h3>
+					</section>
+					<section>
+						<p>It is entirely based on the type of work you want to do</p>
+					</section>
+					<section id="build-apps">
+						<p>If you want to build some apps <span class="fragment">- Javascript</span></p>
+					</section>
+					<section id="data-science">
+						<p>Do machine learning, data science <span class="fragment">- Python</span></p>
+					</section>
+					<section id="network-systems">
+						<p>Build large distributed and scalable network systems <span class="fragment">- GO</span></p>
+					</section>
+					<section id="system-software">
+						<p>Build powerful system software <span class="fragment">- Rust</span></p>
+					</section>
+					<section>
+						<p>There is no problem, project or product that can be built with a single language</p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Step 1</h1>
+						<h2 class="fragment">Learn the basics</h2>
+					</section>
+					<section>
+						<h3>For example</h3>
+						<p class="fragment">Let's say hello world...</p>
+					</section>
+					<section data-background="#FFF" data-background-iframe="http://helloworldcollection.de/" data-background-interactive data-background-transition="zoom">
+						<h1></h1>
+						<br>
+						<br>
+						<br>
+						<h5 style="position: absolute; right: 0; bottom: -100; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.4); padding: 20px;">In 600 Languages</h5>
+					</section>
+					<section>
+						<p>Programming languages are not skills <b>but tools</b></p>
+					</section>
+					<section>
+						<h3>C++</h3>
+<pre class="fragment"><code  class="hljs" data-trim data-line-numbers="1-3">
+char letter = 'A';
+float area;
+double d;
+</code></pre>
+					</section>
+					<section>
+						<h3>Javascript</h3>
+<pre class="fragment"><code  class="hljs" data-trim data-line-numbers="1-3">
+const letter = 'A';
+let area;
+let d;
+</code></pre>
+					</section>
+					<section>
+						<h3>Python</h3>
+<pre class="fragment"><code class="hljs" data-trim data-line-numbers="1-3">
+letter = 'A';
+</code></pre>
+					</section>
+					<section>
+						All Programming languages share the same fundamentals
+					</section>
+					<section>
+						Loops
+<div class="fragment">
+While
+<pre><code class="hljs" data-trim data-line-numbers="1,3">
+while (condition) {
+	statements;
+}
+</code></pre>
+</div>
+					</section>
+					<section>
+						Conditional Statements
+						<div class="fragment">
+If
+<pre><code class="hljs" data-trim data-line-numbers="1,3,5">
+IF condition THEN
+	sequence 1
+ELSE
+	sequence 2
+ENDIF
+</code></pre>
+							</div>
+					</section>
+					<section>
+						Scopes
+						<p>How long is a variable valid</p>
+<pre><code class="hljs" data-trim data-line-numbers="1,3,5,6">
+// js
+function area() {
+	var side = 5;
+}
+// side is not valid here
+console.log(side); // undefined
+</code></pre>
+					</section>
+					<section>
+						Every language has stuff unique to it
+					</section>
+					<section>
+						Javascript is Single Threaded & Non-blocking in nature
+					</section>
+					<section>
+						Python has the coolest way to write code <span class="fragment">or simplest</span>
+<div class="fragment">
+<pre><code class="hljs" data-trim data-line-numbers="1,3,5,6">
+"hello"[::-1] // reverses the string
+</code></pre>
+</div>
+					</section>
+					<section>
+						GO excels in concurrency
+					</section>
+					<section>
+						Rust has the best memory management
+						<div class="fragment">
+							Rust is a language invented by the people behind Mozilla Firefox to build firefox
+						</div>
+						<div class="fragment">
+							Firefox is still better than chrome when it comes to RAM usage <span class="fragment">& Privacy - if you care about it</span>
+						</div>
+					</section>
+					<section>
+						That's pretty much it
+					</section>
+					<section data-background="./assets/iceberg.jpg" data-background-transition="zoom">
+						<h1></h1>
+						<br>
+						<br>
+						<br>
+						<h5 style="position: absolute; right: 0; bottom: -100; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.4); padding: 20px;">This is what we will focus on next</h5>
+					</section>
+				</section>
 			</div>
 		</div>
 
@@ -38,6 +194,7 @@
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
 				hash: true,
+				transition: 'convex',
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
